@@ -36,7 +36,7 @@
         position: relative;
         width: 100%;
         min-height: 50vh;
-        background-image: url("../static/images/logo.png");
+        background-image: url("https://yfctgjuthzdocspcwdwv.supabase.co/storage/v1/object/public/hello/silver.jpg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -93,7 +93,7 @@
     <section class="registration-section">
       <p>Dear Esteemed Alumni,<br /><span class="honoured">We would be honoured to have your gracious presence at Silver Jubilee Celebration of</span></p>
       <div class="dept">Department of <br /> Computer Science <span style="font-family:'Times New Roman', Times, serif;font-weight:bold;">&</span> Information Technology</div>
-      <div class="logo"><img src="../static/images/logo.jpg" alt="Logo"></div>
+      <div class="logo"><img src="https://yfctgjuthzdocspcwdwv.supabase.co/storage/v1/object/public/hello/logo.jpg" alt="Logo"></div>
       <div class="triumph">Technological Revolution, Innovation, Unity & Milestones of Progressive Heritage</div>
       <div class="countdown">
         <div class="countdown-wrapper">
@@ -155,7 +155,7 @@
         e.preventDefault();
         const form = this;
         const formData = new FormData(form);
-        fetch("https://two5-faculty-register.onrender.com", {
+        fetch("https://two5-faculty-register.onrender.com/register-submit", {
           method:"POST",
           body:formData
         })
